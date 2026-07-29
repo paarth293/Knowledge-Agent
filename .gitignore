@@ -1,0 +1,32 @@
+# Environment & Secrets
+.env
+
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Qdrant local storage (auto-created, not for Git)
+qdrant_db/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Data files (keep the folder, ignore contents)
+data/*.pdf
+data/*.txt
+data/*.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
